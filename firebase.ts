@@ -1,6 +1,6 @@
 
-import { initializeApp } from 'firebase/app';
-import type { FirebaseApp } from 'firebase/app';
+import { initializeApp } from '@firebase/app';
+import type { FirebaseApp } from '@firebase/app';
 import { 
   getFirestore, 
   collection, 
@@ -8,8 +8,8 @@ import {
   getDocs, 
   deleteDoc, 
   doc
-} from 'firebase/firestore';
-import type { Firestore, DocumentData, QueryDocumentSnapshot } from 'firebase/firestore';
+} from '@firebase/firestore';
+import type { Firestore, DocumentData, QueryDocumentSnapshot } from '@firebase/firestore';
 // import { getAnalytics } from 'firebase/analytics'; // Analytics can be added if needed
 import { AbsenceRecord, OmitId } from './types';
 

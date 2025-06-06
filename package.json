@@ -1,24 +1,15 @@
 {
-  "name": "copy-of-gestión-de-ausencias-liceo-recoleta",
+  "name": "gestion-ausencias-liceo-recoleta",
+  "version": "1.0.0",
+  "description": "Aplicación web para registrar y consolidar ausencias de profesores y sus reemplazos en el Liceo Industrial de Recoleta.",
   "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
   "dependencies": {
+    "firebase": "^11.9.0",
     "react": "^19.1.0",
-    "react-dom": "^19.1.0",
-    "firebase/app": "latest",
-    "firebase/firestore": "latest",
-    "firebase/analytics": "latest",
-    "firebase": "^11.9.0"
+    "react-dom": "^19.1.0"
   },
-  "devDependencies": {
-    "@types/node": "^22.14.0",
-    "typescript": "~5.7.2",
-    "vite": "^6.2.0"
+  "scripts": {
+    "start": "echo \"This project uses index.html with ESM modules. Serve statically or use a simple HTTP server for local development.\"",
+    "build": "echo \"Build process likely handled by Cloud Build buildpacks. This package.json is primarily for dependency declaration.\""
   }
 }
